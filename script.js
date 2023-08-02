@@ -1,5 +1,5 @@
 // script.js
-const apiKey = "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"; // Đặt API Key của bạn ở đây
+const apiKey = "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"; // Đặt API Key của bạn ở đây
 
 function sendMessage() {
   const inputText = document.getElementById('input-text').value;
