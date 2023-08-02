@@ -1,5 +1,5 @@
 // script.js
-const apiKey = "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"; // Đặt API Key của bạn ở đây
+const apiKey = "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";
 
 function sendMessage() {
   const inputText = document.getElementById('input-text').value;
@@ -17,7 +17,6 @@ function sendMessage() {
   })
   .then(response => response.json())
   .then(data => {
-    // Xử lý câu trả lời từ API của OpenAI ở đây
     displayAnswer(data.choices[0].text);
   })
   .catch(error => {
